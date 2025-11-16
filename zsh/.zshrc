@@ -74,7 +74,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-fastfetch
+fastfetch -l ~/Downloads/horse.txt --logo-height 1 --logo-width 1
 
 # User configuration
 
