@@ -104,3 +104,12 @@ fastfetch -l ~/Downloads/horse.txt --logo-height 1 --logo-width 1
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Homebrew (Linuxbrew) – this activates brew in the current shell
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Powerlevel10k theme
+[[ -f /home/linuxbrew/.linuxbrew/share/powerlevel10k/powerlevel10k.zsh-theme ]] && source /home/linuxbrew/.linuxbrew/share/powerlevel10k/powerlevel10k.zsh-theme
+
+# Powerlevel10k config (this loads your old prompt if it exists)
+[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
