@@ -19,6 +19,6 @@ sleep 0.4
 hyprlock
 
 # This part runs after you unlock
-kill $(cat /tmp/mpvpaper-lockscreen.pid) 2>/dev/null
 pkill mpvpaper
+kill $(cat /tmp/mpvpaper-lockscreen.pid) 2>/dev/null
 rm -f /tmp/mpvpaper-lockscreen.pid
