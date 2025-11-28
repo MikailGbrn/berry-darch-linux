@@ -113,3 +113,4 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Powerlevel10k config (this loads your old prompt if it exists)
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
+export PATH="$PATH:$(go env GOPATH)/bin"
